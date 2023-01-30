@@ -14,7 +14,7 @@
 body {
   background-color: var(--color-base2);
   color: var(--color-body);
-  font-family: var(--font-base);
+  font-family: var(--font-base), sans-serif;
 }
 
 h1,
@@ -27,7 +27,7 @@ h6 {
   font-weight: 700;
 }
 
-* {
+a {
   text-decoration: none;
   color: var(--color-body);
   transition: all 0.4s ease;
@@ -50,14 +50,14 @@ img {
 }
 
 .full-height {
-  min-width: 100vh;
+  min-height: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .shadow-effect {
@@ -65,7 +65,7 @@ img {
 }
 
 .shadow-effect:hover {
-  box-shadow: -8px 8px 0 0 var(--color-brand);
+  box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
 .iconbox {
@@ -79,8 +79,7 @@ img {
   color: var(--color-base);
 }
 
-/* NAVBAR*/
-
+/* NAVBAR */
 .navbar {
   background-color: var(--color-base);
 }
@@ -88,7 +87,7 @@ img {
 .navbar .nav-link {
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: #fff;
 }
 
 .navbar .nav-link:hover {
@@ -155,7 +154,7 @@ img {
   background-color: var(--color-brand);
   position: absolute;
   left: 0;
-  top: 100%;
+  top: 110%;
   transition: all 0.4s;
 }
 

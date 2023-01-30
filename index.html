@@ -1,39 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- link stylesheets -->
+    <title>Ashley.K - Junior Software Developer</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/aos.css" />
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Ashley.K - Software Developer</title>
   </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- NAVBAR (MADE WITH BOOTSTRAP) -->
 
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container flex-lg-column">
-        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#"
-          ><span class="h3 fw-bold d-block d-none">Ashley.K</span>
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">Ashley.K</span>
           <img
-            src="./assets/imgs/my_photo.png"
+            src="/assets/imgs/my_photo.png"
             class="d-none d-lg-block rounded-circle"
-            alt="my-photo"
-        /></a>
+            alt=""
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
@@ -57,153 +58,228 @@
         </div>
       </div>
     </nav>
+    <!-- //NAVBAR -->
 
-    <!-- // NAVBAR -->
-
-    <!-- CONTENT WRAPPER (ALL CONTENT WILL GO INSIDE THIS WRAPPER) -->
+    <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
       <!-- HOME -->
       <section id="home" class="full-height px-lg-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
-              <h1 class="display-4 fw-bold">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
                 I'M A
                 <span class="text-brand">STUDENT SOFTWARE DEVELOPER</span> FROM
                 SYDNEY
               </h1>
-              <p class="lead mt-2 mb-4">
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
                 Hi I'm Ashley, and I am currently training with _nology to
-                become to full stack developer
+                become to full stack developer.
               </p>
-              <a href="#portfolio" class="btn btn-brand me-4"
-                >Explore my learnings</a
-              >
-              <a href="#" class="link-custom">Contact Me: (+61) 466 898 297</a>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3"
+                  >Explore my learnings</a
+                >
+                <a href="#" class="link-custom"
+                  >Contact Me: (+61) 466 898 297</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- //HOME -->
 
-      <!-- // HOME -->
-
-      <!-- ABOUT -->
+      <!-- SERVICES -->
       <section id="about" class="full-height px-lg-5">
         <div class="container">
-          <div class="row pb-4">
+          <div class="row pb-4" data-aos="fade-up">
             <div class="col-lg-8">
               <h6 class="text-brand">ABOUT</h6>
               <h1>Some Facts About Me</h1>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-4">
-              <div class="about p-4 bg-base rounded-4 shadow-effect">
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
                 <div class="iconbox rounded-4">
                   <i class="las la-chart-bar"></i>
                 </div>
-                <h4 class="mt-4 mb-2">Ex-Auditor</h4>
+                <h5 class="mt-4 mb-2">Ex-Auditor</h5>
                 <p>
                   Now studying in software development, I am currently pursuing
                   my passion of being a part of the technology industry and am
                   constantly looking for new skills to learn and develop.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
               </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="about p-4 bg-base rounded-4 shadow-effect">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
                 <div class="iconbox rounded-4">
                   <i class="las la-route"></i>
                 </div>
-                <h4 class="mt-4 mb-2">Career Change</h4>
+                <h5 class="mt-4 mb-2">Career Change</h5>
                 <p>
                   Although I enjoyed audit, I knew that it was not for me and I
                   wanted to pursue a career where I can enjoy both the input and
                   output. This desire is what led me to find _nology.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
               </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="about p-4 bg-base rounded-4 shadow-effect">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
                 <div class="iconbox rounded-4">
-                  <i class="las la-chart-bar"></i>
+                  <i class="las la-laptop-code"></i>
                 </div>
-                <h4 class="mt-4 mb-2">Passion to Reality</h4>
+                <h5 class="mt-4 mb-2">Passion to Reality</h5>
                 <p>
                   It's now the goal I'm working towards. Always keen to see
                   where life takes me and always looking forward to where I'll
                   be in a few years, keen to later look back to where I started.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- // ABOUT -->
+      <!-- SERVICES -->
 
       <!-- SKILLS -->
+      <section id="skills" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Skills</h6>
+              <h1>Tools I've Developed</h1>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <!-- // SKILLS -->
+      <!-- //SKILLS -->
 
       <!-- PORTFOLIO -->
-
       <section id="portfolio" class="full-height px-lg-5">
         <div class="container">
-          <div class="row pb-4">
+          <div class="row pb-4" data-aos="fade-up">
             <div class="col-lg-8">
-              <h6 class="text-brand">PORTFOLIO</h6>
-              <h1>Recent Projects I've Worked On</h1>
+              <h6 class="text-brand">Portfolio</h6>
+              <h1>My Recent Projects</h1>
             </div>
           </div>
 
           <div class="row gy-4">
-            <div class="col-md-6">
+            <div class="col-md-4" data-aos="fade-up">
               <div class="card-custom rounded-4 bg-base shadow-effect">
                 <div class="card-custom-image rounded-4">
                   <img
                     class="rounded-4"
                     src="./assets/imgs/morse-code-project.png"
-                    alt="morse-code-project"
+                    alt=""
                   />
                 </div>
                 <div class="card-custom-content p-4">
                   <h4>Morse Code Translator</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil voluptatum perferendis dolorem aut quae odit
-                    repudiandae! Quas nostrum libero veritatis. Corrupti, earum
-                    labore amet deleniti dolor molestiae laboriosam vero
-                    nesciunt.
                   </p>
                   <a href="#" class="link-custom">Try It Out</a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
               <div class="card-custom rounded-4 bg-base shadow-effect">
                 <div class="card-custom-image rounded-4">
                   <img
                     class="rounded-4"
                     src="./assets/imgs/morse-code-project.png"
-                    alt="morse-code-project"
+                    alt=""
                   />
                 </div>
                 <div class="card-custom-content p-4">
                   <h4>Morse Code Translator</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil voluptatum perferendis dolorem aut quae odit
-                    repudiandae! Quas nostrum libero veritatis. Corrupti, earum
-                    labore amet deleniti dolor molestiae laboriosam vero
-                    nesciunt.
+                  </p>
+                  <a href="#" class="link-custom">Try It Out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/imgs/morse-code-project.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Morse Code Translator</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="link-custom">Try It Out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/imgs/morse-code-project.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Morse Code Translator</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="link-custom">Try It Out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/imgs/morse-code-project.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Morse Code Translator</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="link-custom">Try It Out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/imgs/morse-code-project.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Morse Code Translator</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                   <a href="#" class="link-custom">Try It Out</a>
                 </div>
@@ -212,62 +288,52 @@
           </div>
         </div>
       </section>
-
-      <!-- // PORTFOLIO -->
+      <!-- //PORTFOLIO -->
 
       <!-- ABOUT -->
-
       <section id="about" class="full-height px-lg-5">
         <div class="container">
-          <div class="row pb-4">
+          <div class="row pb-4" data-aos="fade-up">
             <div class="col-lg-8">
-              <h6 class="text-brand">BACKGROUND</h6>
-              <h1>My Education & Experience</h1>
+              <h6 class="text-brand">ABOUT</h6>
+              <h1>My Education & Experiance</h1>
             </div>
           </div>
 
           <div class="row gy-5">
             <div class="col-lg-6">
-              <h3 class="mb-4">Education</h3>
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Education
+              </h3>
               <div class="row gy-4">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
+                    <h4>Bachelor of Commerce - Accounting</h4>
                     <p class="text-brand mb-2">
                       Macquarie University (2017 - 2021)
                     </p>
                     <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
-                    <p class="text-brand mb-2">
-                      Macquarie University (2017 - 2021)
-                    </p>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
-                    <p class="text-brand mb-2">
-                      Macquarie University (2017 - 2021)
-                    </p>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
+                      I started with a double degree of Commerce/Arts, majoring
+                      in Accounting and Finance and Japanese. Studying commerce
+                      wasn't necessarily a choice but rather a decision made on
+                      behalf of my parents. However, throughout the degree, I
+                      found myself unsatisfied with what I was learning.
+                      <br />
+                      <br />
+                      During my 3rd year of Uni, I changed from Japanese to
+                      Information Technology as I found more of a passion in
+                      that field than I did the learning the language. I learnt
+                      this course for about a year and when I reached my
+                      penultimate, I applied as a vacationer at Deloitte in
+                      audit.
+                      <br />
+                      <br />
+                      After the internship, I was offered a full-time role as an
+                      Undergrad, with the prospect of attaining a Graduate role
+                      after a year. As such, I decided to drop my second degree
+                      and focus on finalising my Accounting degree to graduate
+                      and started working full-time and studying part-time for
+                      the next year.
                     </p>
                   </div>
                 </div>
@@ -275,46 +341,39 @@
             </div>
 
             <div class="col-lg-6">
-              <h3 class="mb-4">Experience</h3>
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Experiance
+              </h3>
               <div class="row gy-4">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                   <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
+                    <h4>Experienced Analyst</h4>
                     <p class="text-brand mb-2">
-                      Macquarie University (2017 - 2021)
+                      Deloitte Australia - External Audit (2020 - 2022)
                     </p>
                     <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
-                    <p class="text-brand mb-2">
-                      Macquarie University (2017 - 2021)
-                    </p>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <div class="bg-base p-4 rounded-4 shadow-effect">
-                    <h4>Bachelor of Commerce</h4>
-                    <p class="text-brand mb-2">
-                      Macquarie University (2017 - 2021)
-                    </p>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eum, corporis cupiditate aliquid expedita explicabo saepe
-                      inventore rem?
+                      Being put in different teams every few weeks meant that I
+                      had to understand how to work with different people on
+                      multiple occasions and on different jobs.
+                      <br />
+                      <br />
+                      As I gained more experience, there were moments during the
+                      job where I became a senior to newcomers and those just
+                      starting. I learnt to always ask about the wellbeing of
+                      others and helped where I could. Planning out the day and
+                      the priorities needed to be done and taking responsibility
+                      for any issues that may arise.
+                      <br />
+                      <br />
+                      Furthermore, being in a client-facing role meant that I
+                      needed to have good communication skills with both the
+                      client and my team. Audit meant that there is a need to
+                      ask further questions and drill in on issues that have
+                      occurred.
+                      <br />
+                      <br />
+                      Although I enjoyed and understood the role I was given, my
+                      passion lied elsewhere.
                     </p>
                   </div>
                 </div>
@@ -323,19 +382,18 @@
           </div>
         </div>
       </section>
-
-      <!-- // ABOUT -->
+      <!-- //ABOUT -->
 
       <!-- CONTACT -->
       <section id="contact" class="full-height px-lg-5">
         <div class="container">
           <div class="row justify-content-center text-center">
-            <div class="col-lg-8 pb-4">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
               <h6 class="text-brand">CONTACT</h6>
               <h1>Feel free to reach out!</h1>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
               <form action="#" class="row g-lg-3 gy-3">
                 <div class="form-group col-md-6">
                   <input
@@ -376,22 +434,22 @@
           </div>
         </div>
       </section>
-
-      <!-- // CONTACT -->
+      <!-- //CONTACT -->
 
       <!-- FOOTER -->
-
       <footer class="py-5 px-lg-5">
         <div class="container">
           <div class="row gy-4 justify-content-between">
             <div class="col-auto">
               <p class="mb-0">
-                Designed by <a href="#" class="fw-bold">Ashley Kouch</a>
+                <a href="#" class="fw-bold">Ashley.K</a>
               </p>
             </div>
             <div class="col-auto">
               <div class="social-icons">
-                <a href="#"><i class="lab la-instagram"></i></a>
+                <a href="mailto:ashleykouch99@gmail.com"
+                  ><i class="las la-envelope"></i
+                ></a>
                 <a href="#"><i class="lab la-linkedin-in"></i></a>
                 <a href="#"><i class="lab la-github"></i></a>
                 <a href="#"><i class="lab la-slack"></i></a>
@@ -400,15 +458,12 @@
           </div>
         </div>
       </footer>
-
-      <!-- // FOOTER -->
+      <!-- //FOOTER -->
     </div>
+    <!-- //CONTENT WRAPPER -->
 
-    <!-- // CONTENT WRAPPER -->
-
-    <!-- link javascript files -->
-    <script src="./assets/js/bootstrap.bundle.min.js" />
-    <script src="./assets/js/aos.js" />
-    <script src="./assets/js/main.js" />
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

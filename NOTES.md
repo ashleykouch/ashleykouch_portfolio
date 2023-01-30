@@ -4,3 +4,9 @@
 
 - fix navbar active link
   - only last link remains active (not whenever clicked)
+
+- update info
+    - update education & experience section
+    - update links in:
+        - footer
+        - contact
