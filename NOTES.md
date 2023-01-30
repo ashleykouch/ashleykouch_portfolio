@@ -1,0 +1,5 @@
+- update info
+  - update links in:
+    - footer
+    - contact
+    - portfolio
