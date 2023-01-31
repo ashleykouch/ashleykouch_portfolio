@@ -6,9 +6,9 @@ This is my personal portfolio showcasing my projects, skills and experiences.
 
 ## Technologies Used
 
-    - HTML
-    - CSS
-    - Bootstrap
+ - HTML
+ - CSS
+ - Bootstrap
 
 ## Contact
 
