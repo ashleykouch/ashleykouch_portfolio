@@ -12,7 +12,7 @@ Hosted Link: https://personal-portfolio-pearl-delta.vercel.app/
 
 ## Requirements / Purpose
 
-- MVP
+### MVP
 
 Portfolio will include the following sections:
 
@@ -22,11 +22,11 @@ Portfolio will include the following sections:
 - A project page/section with all lastest projects and projects wanting be showcased.
 - A contact page/section with email, GitHub profile link, LinkedIn profile link and others if needed.
 
-- Purpose of Project
+### Purpose of the Project
 
 The purpose of this project is to showcase my skills, experiences and other projects through visual and technical pathways.
 
-- Tech stacks used:
+### Tech Stacks Used
 
 HTML: As HTML is the primary language used to create the structure and content of webpages (and is essentially the backbone of the web). Using HTML allows you to define the structure of the portfolio, including headings, paragraphs, images and links.
 
@@ -53,10 +53,6 @@ It was implemented in a way that could showcase my personal brand or aesthetic p
 ---
 
 ## Features
-
-- What features does the project have?
-
-- list them...
 
 - Responsive design: Ensuring that the portfolio is optimised for different screen sizes and devices, so viewers can easily access and navigate the website on desktop and mobile devices.
 - Navigation bar: The navigation menu on the left side of the portfolio allows viewers to quickly access different sections of the website.
